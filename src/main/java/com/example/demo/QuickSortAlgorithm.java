@@ -1,7 +1,11 @@
 package com.example.demo;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
+@Component
 public class QuickSortAlgorithm implements SortAlgorithm{
 
 	public int[] sort(int[] numbers) {
